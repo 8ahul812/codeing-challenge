@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.certificate {
+    position: relative;
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.content {
+    text-align: center;
+    color: #333;
+}
+
+h1 {
+    font-size: 28px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.recipient {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.course {
+    font-size: 20px;
+}
+
+.date {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+hr{
+    width: 50%;
+}
